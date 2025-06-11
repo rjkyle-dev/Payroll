@@ -1,0 +1,39 @@
+thead{
+    margin-top: -10px;
+}
+
+
+.custom-attendance-popup {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: white;
+    color: #396A39;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    z-index: 9999;
+    font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.custom-attendance-popup:hover {
+    opacity: 1;
+    transition-duration: 0s;
+}
+
+
+.attendance-popup-header {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    position: relative; /* Make header relative for absolute positioning of close icon */
+}
+
+.attendance-popup-message {
+    font-size: 14px;
+}
+
+
+

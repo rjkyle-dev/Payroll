@@ -1,0 +1,120 @@
+.colors{
+    /* background */
+    color: #f8fbf8; 
+
+    /* foreground */
+    color: #133913;
+    
+    /* card */
+    color: #ffffff;
+
+    /* card-foreground */
+    color: #133913;
+
+    /* popover */
+    color: #ffffff;
+
+    /* popover-forground */
+    color: #133913;
+
+    /* primary */
+    color: #16a249;
+
+    /* primary-forground */
+    color: #ffffff;
+
+    /* secondary */
+    color: #f2f8f2;
+
+    /* secondary-foreground */
+    color: #133913;
+
+    /* muted */
+    color: #f2f8f2;
+
+    /* muted-foreground */
+    color: #478547;
+
+    /* accent */
+    color: #16a249;
+
+    /* accent-foreground */
+    color: #ffffff;
+
+    /* destructive */
+    color: #ef4444;
+
+    /* destructicve-forground */
+    color: #f8fafc;
+
+    /* border */
+    color: #cde4cd;
+
+    /* input */
+    color: #cde4cd;
+
+    /* ring */
+    color: #16a249;
+
+    /* radius */
+    color: .5rem;
+
+    /* sidebar-background */
+    color: #0b5125;
+
+    /* sidebar-foreground */
+    color: #f8fafc;
+
+    /* sidebar-primary */
+    color: #16a249;
+
+    /* sidebar-primary-foreground */
+    color: #ffffff;
+
+    /* sidebar-accent */
+    color: #206037;
+
+    /* sidebar-accent-foreground */
+    color: #f8fafc;
+
+    /* sidebar-border */
+    color: #206037;
+
+    /* sidebar-ring */
+    color: #16a249;
+}
+
+:root{
+    --background: 120 30% 98%;
+    --foreground: 120 50% 15%;
+    --card: 0 0% 100%;
+    --card-foreground: 120 50% 15%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 120 50% 15%;
+    --primary: 142 76% 36%;
+    --primary-foreground: 355 100% 100%;
+    --secondary: 120 30% 96%;
+    --secondary-foreground: 120 50% 15%;
+    --muted: 120 30% 96%;
+    --muted-foreground: 120 30% 40%;
+    --accent: 142 76% 36%;
+    --accent-foreground: 0 0% 100%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+    --border: 120 30% 85%;
+    --input: 120 30% 85%;
+    --ring: 142 76% 36%;
+    --radius: .5rem;
+    --sidebar-background: 142 76% 18%;
+    --sidebar-foreground: 210 40% 98%;
+    --sidebar-primary: 142 76% 36%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 142 50% 25%;
+    --sidebar-accent-foreground: 210 40% 98%;
+    --sidebar-border: 142 50% 25%;
+    --sidebar-ring: 142 76% 36%;
+}
+
+asd{
+    color: rgb(76, 180, 76);
+}

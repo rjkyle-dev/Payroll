@@ -1,0 +1,63 @@
+General Styling
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    display: flex;
+    height: 100vh; /* Ensure the body takes up the full height */
+    margin: 0; /* Remove default margin */
+    /* padding: 0; */
+}
+
+.month-nav-btn {
+    background-color: white;
+    padding: 0.3rem 0.625rem; /* p-2.5 */
+    border-radius: 0.5rem; /* rounded-lg */
+    border: 1px solid #bbf7d0; /* border-green-200 */
+    transition: all 0.3s ease;
+}
+
+.month-nav-btn:hover {
+    background-color: #f0fdf4; /* light green bg on hover */
+    border-color: #22c55e;     /* green-500 border on hover */
+}
+
+.month-nav-btn:hover i {
+    color: #22c55e; /* darker green on icon hover */
+}
+
+/* .modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: none;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal-header {
+    background-color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+.modal-title {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.modal-body {
+    background-color: #fff;
+    padding: 20px;
+    text-align: center;
+} */
+
+.close-btn {
+    background: none;
+    border: none;
+    font-size: 20px;
+    color: #333;
+    cursor: pointer;
+}
